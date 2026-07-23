@@ -1,13 +1,13 @@
 // Gallery page content + lightbox + category filtering.
 import { initApp } from './app.js'
 
-const GALLERY = [
-  { src: '/gallery/WhatsApp_Image_2026-07-22_at_7.09.00_PM.jpeg', cat: 'farming', alt: 'Tanzanian farmer working in the field' },
-  { src: '/gallery/WhatsApp_Image_2026-07-22_at_7.09.00_PM_(1).jpeg', cat: 'farming', alt: 'African farmer in a crop field' },
-  { src: '/gallery/WhatsApp_Image_2026-07-22_at_7.09.01_PM.jpeg', cat: 'crops', alt: 'Healthy crops growing on a Tanzanian farm' },
-  { src: '/gallery/WhatsApp_Image_2026-07-22_at_7.09.02_PM.jpeg', cat: 'training', alt: 'Agricultural training with Tanzanian farmers' },
-  { src: '/gallery/WhatsApp_Image_2026-07-22_at_7.11.25_PM.jpeg', cat: 'products', alt: 'Amazing Agricultural Solutions products in use' },
-  { src: '/products/WhatsApp_Image_2026-07-20_at_2.49.29_AM.jpeg', cat: 'products', alt: 'Shamba Shield Bio product on the farm' },
+ const GALLERY = [
+  { src: `${import.meta.env.BASE_URL}gallery/WhatsApp_Image_2026-07-22_at_7.09.00_PM.jpeg`, cat: 'farming', alt: 'Tanzanian farmer working in the field' },
+  { src: `${import.meta.env.BASE_URL}gallery/WhatsApp_Image_2026-07-22_at_7.09.00_PM_(1).jpeg`, cat: 'farming', alt: 'African farmer in a crop field' },
+  { src: `${import.meta.env.BASE_URL}gallery/WhatsApp_Image_2026-07-22_at_7.09.01_PM.jpeg`, cat: 'crops', alt: 'Healthy crops growing on a Tanzanian farm' },
+  { src: `${import.meta.env.BASE_URL}gallery/WhatsApp_Image_2026-07-22_at_7.09.02_PM.jpeg`, cat: 'training', alt: 'Agricultural training with Tanzanian farmers' },
+  { src: `${import.meta.env.BASE_URL}gallery/WhatsApp_Image_2026-07-22_at_7.11.25_PM.jpeg`, cat: 'products', alt: 'Amazing Agricultural Solutions products in use' },
+  { src: `${import.meta.env.BASE_URL}products/WhatsApp_Image_2026-07-20_at_2.49.29_AM.jpeg`, cat: 'products', alt: 'Shamba Shield Bio product on the farm' },
   { src: 'https://images.pexels.com/photos/35246303/pexels-photo-35246303.jpeg?auto=compress&cs=tinysrgb&w=800', cat: 'farming', alt: 'African farmer working in a rice field' },
   { src: 'https://images.pexels.com/photos/14371701/pexels-photo-14371701.jpeg?auto=compress&cs=tinysrgb&w=800', cat: 'crops', alt: 'Tanzanian maize farming' },
   { src: 'https://images.pexels.com/photos/27624218/pexels-photo-27624218.jpeg?auto=compress&cs=tinysrgb&w=800', cat: 'irrigation', alt: 'Drip irrigation system on a Tanzanian farm' },
