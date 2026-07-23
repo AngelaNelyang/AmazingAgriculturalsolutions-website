@@ -36,7 +36,7 @@ function currentPage() {
 
 // ---- Brand logo (company logo image) ----
 function brandLogo(size = 52) {
-  return `<img src="/Logo_ya_AAS-photoaidcom-cropped.jpeg" alt="Amazing Agricultural Solutions logo" class="brand-logo-img" width="${size}" height="${size}" />`
+return `<img src="${import.meta.env.BASE_URL}Logo_ya_AAS-photoaidcom-cropped.jpeg" alt="Amazing Agricultural Solutions logo" class="brand-logo-img" width="${size}" height="${size}" />`  
 }
 
 // ---- Build header ----
