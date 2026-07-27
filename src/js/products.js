@@ -3,7 +3,7 @@ import { initApp } from './app.js'
 
 const IMG = {
   hero: 'https://images.pexels.com/photos/13042951/pexels-photo-13042951.jpeg?auto=compress&cs=tinysrgb&w=1600',
-  shambaShield: '/products/WhatsApp_Image_2026-07-20_at_2.49.29_AM.jpeg',
+  shambaShield: './products/WhatsApp_Image_2026-07-20_at_2.49.29_AM.jpeg',
   p1: 'https://images.pexels.com/photos/14371701/pexels-photo-14371701.jpeg?auto=compress&cs=tinysrgb&w=800',
   p2: 'https://images.pexels.com/photos/27624218/pexels-photo-27624218.jpeg?auto=compress&cs=tinysrgb&w=800',
   p3: 'https://images.pexels.com/photos/10606633/pexels-photo-10606633.jpeg?auto=compress&cs=tinysrgb&w=800',
